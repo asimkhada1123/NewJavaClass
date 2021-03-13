@@ -39,12 +39,12 @@ public class BankAccount {
         this.balance = this.balance - balance;
     }
 
-    public void withDraw(){
-        this.balance = this.balance - 0.1 * this.balance;
+    public void withDraw(double balance, double percentage){
+        this.balance = this.balance - (percentage/100) * this.balance;
     }
 
-    public void depositFunds(){
-        this.balance = this.balance - 0.1 * this.balance;
+    public void depositFunds(double balance, double percentage){
+        this.balance = this.balance - (percentage/100) * this.balance;
     }
 
     public void depositFunds(double balance){

@@ -9,11 +9,11 @@ public class Main {
 
         account.displayAccountInformation();
         account.depositFunds(20);
-        account.depositFunds();
+        account.depositFunds(30,6);
         account.displayAccountInformation();
 
         account.withDraw(30);
-        account.withDraw();
+        account.withDraw(30,5);
         account.displayAccountInformation();
 
         BankAccount account1 = new BankAccount("Jack");
@@ -21,12 +21,12 @@ public class Main {
         account1.displayAccountInformation();
 
         account1.depositFunds(90);
-        account1.depositFunds();
+        account1.depositFunds(9,7);
 
         account1.displayAccountInformation();
 
         account1.withDraw(60);
-        account1.withDraw();
+        account1.withDraw(10,10);
 
         account1.displayAccountInformation();
 

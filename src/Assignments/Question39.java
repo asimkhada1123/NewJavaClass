@@ -9,7 +9,7 @@ public class Question39 {
 
         int [] arr = {0};
         String str = "";
-        String name = "Anuj Simkhada Minesota";
+        String name = "Anuj Simkhada Minesota Hey";
 
 //        str = str + name.charAt(0) +;
 
