@@ -9,7 +9,7 @@ import java.sql.Statement;
 
 public class SelectDemo {
 
-    public static final String SQL = "select * from user_tbl";
+    public static final String SQL = "select * from hello";
 
     public static void main(String[] args) {
 

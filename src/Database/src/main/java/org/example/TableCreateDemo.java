@@ -13,7 +13,7 @@ public class TableCreateDemo {
     public static final String DB_URL = "jdbc:mysql://localhost:3306/jdbc_demo";
     public static final String USER_NAME = "root";
     public static final String PASSWORD = "admin";
-    public static final String SQL = "create table user_tbl(id int not null auto_increment, user_name varchar(45))";
+    public static final String SQL = "create table hello(id int not null auto_increment primary key, user_name varchar(45))";
 
     public static void main(String[] args) {
 
